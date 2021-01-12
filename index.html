@@ -1,100 +1,32 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<!doctype html>
+<html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Apes are cool</title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <link rel="stylesheet" href="css/master.css">
-  <link rel="stylesheet" href="css/scaffolding.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media Queries</title>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/master.css">
+  <link rel="stylesheet" href="style/scaffolding.css">
 </head>
-
 <body class="flex-layout">
-
   <header>
-    <h1>Media Queries</h1>
+    <h1>B3-2020-2021-CSS-learning-css</h1>
+    <p> Le CSS (Cascading Style Sheets : feuilles de style en cascade) </p>
   </header>
+  <article>
+      <h2>Media Queries</h2>
+      <p>Le CSS (Cascading Style Sheets : feuilles de style en cascade) est un langage informatique qui permet la mise en forme d'une page web.
+        Créé par la W3C dans les années 1990 , il est totalement pris en charge par les navigateurs dans les annés 2000.
+        La première réelle proposition de feuilles de style est proposée par Hakon Wium Lie.
+        Très vite, Dave Raggett qui est alors le principal éditeur du projet de spécification HTML3 publie un document évoquant le travail de Hakon Wium Lie.
+        La spécification CSS1 finale est publiée le 17 décembre 1996. La première version du CSS ne permet pas
+        une mise en page mais seulement une "mise en style" ( police,couleur, caractère...).
 
-  <article class="">
+En 1997, l'etude du CSS est confiée à une équipe du W3C presidé par Chris Lilley. Ce groupe contient des representants des plus grands navigateurs.
 
-    <div class="exammple example-one">
-      <code>
-        <pre>
-    /*default and smartphones mobiles (portrait)*/
-    </pre>
-      </code>
-    </div>
+C'est en mai 1998 que la seconde version du CSS, avec ses 70 nouvelles propriétés, apparaît. Des problèmes d'implémentation du CSS conduise le W3C à sortir en 2001 une version revue du CSS2. Le développement du CSS3 débute dès 1999. Cependant le développement est très difficile avec les problèmes de mise à jour et d'implémentation. L'évolution du CSS est constante et il a fallu plus de 10 années pour finaliser sa version 3.
+</p>
 
-    <div class="exammple example-two">
-      <code>
-        <pre>
-    /*low resolution tablets, mobiles (portrait)*/
-    @media (min-width: 481px) and (max-width: 767px) {
-      body {
-        background: green;
-      }
-    }
-    </pre>
-      </code>
-    </div>
-
-    <div class="exammple example-three">
-      <code>
-        <pre>
-          /*tablets, ipads (landscape)*/
-          @media (min-width: 768px) and (max-width: 1024px) {
-            body {
-              background: yellow;
-            }
-          }
-    </pre>
-      </code>
-    </div>
-
-    <div class="exammple example-four">
-      <code>
-        <pre>
-          /*laptops, desktops*/
-          @media (min-width: 1025px) and (max-width: 1280px) {
-            body {
-              background: black;
-            }
-          }
-    </pre>
-      </code>
-    </div>
-
-    <div class="exammple example-five">
-      <code>
-        <pre>
-          /*desktops - higher resolution*/
-          @media (min-width: 1281px) {
-            body {
-              background: rebeccapurple;
-            }
-          }
-    </pre>
-      </code>
-    </div>
-
-  </article>
-
-  <footer>
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries" target="_blank">Using media queries</a>
-      </li>
-      <li>
-        <a href="https://css-tricks.com/logic-in-media-queries/">
-          Logic in Media Queries
-        </a>
-      </li>
-    </ul>
-  </footer>
-
+ </article>
 </body>
-
 </html>
