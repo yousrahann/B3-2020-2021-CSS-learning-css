@@ -9,12 +9,41 @@
   <link rel="stylesheet" href="style/scaffolding.css">
 </head>
 <body class="flex-layout">
+
+
+<nav role="navigation">
+<div id="menuToggle">
+<!--
+A fake / hidden checkbox is used as click reciever,
+so you can use the :checked selector on it.
+-->
+<input type="checkbox" />
+
+<!--
+
+-->
+<span></span>
+<span></span>
+<span></span>
+
+<!--
+Too bad the menu has to be inside of the button
+but hey, it's pure CSS magic.
+-->
+<ul id="menu">
+  <a href="index.html"><li>Accueil</li></a>
+  <a href=""><li>Accueil</li></a>
+  <a href=""><li>Contact</li></a>
+</ul>
+</div>
+</nav>
+
   <header>
     <h1>B3-2020-2021-CSS-learning-css</h1>
     <p> Le CSS (Cascading Style Sheets : feuilles de style en cascade) </p>
   </header>
   <article>
-      <h2>Media Queries</h2>
+      <h1>Media Queries</h1>
       <p>Le CSS (Cascading Style Sheets : feuilles de style en cascade) est un langage informatique qui permet la mise en forme d'une page web.
         Créé par la W3C dans les années 1990 , il est totalement pris en charge par les navigateurs dans les annés 2000.
         La première réelle proposition de feuilles de style est proposée par Hakon Wium Lie.
@@ -27,6 +56,25 @@ En 1997, l'etude du CSS est confiée à une équipe du W3C presidé par Chris Li
 C'est en mai 1998 que la seconde version du CSS, avec ses 70 nouvelles propriétés, apparaît. Des problèmes d'implémentation du CSS conduise le W3C à sortir en 2001 une version revue du CSS2. Le développement du CSS3 débute dès 1999. Cependant le développement est très difficile avec les problèmes de mise à jour et d'implémentation. L'évolution du CSS est constante et il a fallu plus de 10 années pour finaliser sa version 3.
 </p>
 
- </article>
+</article>
+
+</div>
+
+    <div style="padding-left:16px">
+
+    </div>
+
+    <div class="footer">
+      <p>B3-2020-2021-CSS-learning-css</p>
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+      to make it easier for folks to view source and remix -->
+    <div
+      class="glitchButton"
+      style="position:fixed;top:20px;right:20px;"
+    ></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+
 </body>
 </html>
