@@ -20,6 +20,21 @@ h3 {
   line-height: 2;
 }
 
+<style>
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+  }
+  .cards img {
+    margin: 10px;
+    margin-left: 200px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3);
+    max-width: 200px;
+  }
 
   /*smartphones mobiles (portrait)*/
   @media (max-width: 480px) {
@@ -62,7 +77,6 @@ h3 {
 #menuToggle
 {
   display: block;
-  position: relative;
   top: 50px;
   left: 50px;
 
