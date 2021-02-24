@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media Queries</title>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/master.css">
+  <link rel="stylesheet" href="style/scaffolding.css">
+  <link rel="stylesheet" href="style/footer.css">
+</head>
+
+<body>
+
+  <body>
+
+  <header>
+    <div class="container">
+      <label for="menu-burger" class="show-menu">&#9776;</label>
+      <input type="checkbox" id="menu-burger" role="button">
+      <nav>
+         <ul>
+           <li><a href='index.html'>Home</a></li>
+           <li><a href='css.html'>Les CSS</a></li>
+           <li><a href='personnalites.html'>Personnalités</a>
+          <li><a href='profil.html'>Profil</a>
+           <li><a href='mentions.html'>Mentions légales</a></li>
+         </ul>
+      </nav>
+    </div>
+</header>
+
+<main>
+<h2>L'histoire du CSS</h2>
+<p>
+  Le concept de feuille de style est présent dès l'origine du World Wide Web :
+  le premier navigateur web WorldWideWeb permet de mettre en forme les documents à l'aide de ce qui serait aujourd'hui considéré comme une « feuille de style utilisateur ». De même, les navigateurs Viola en 1992 et Harmony en 1993 recourent à un mécanisme similaire
+  permettant de déterminer le rendu des polices de caractères, des couleurs ou de l'alignement du texte.
+
+  Il ne s'agit cependant pas de styles déterminés par l'auteur du document.
+  HTML ne comportant pas non plus d'éléments de présentation dans ses premières années,
+  une pression croissante s'exerce alors pour que les navigateurs permettent aux auteurs de déterminer eux-mêmes la présentation des pages web, dans une démarche issue de la publication imprimée électronique.
+
+<p/>
+
+</main>
+
+<main class="main">
+  <h3>CSS1</h3>
+   <p>La spécification CSS1 finale est publiée le 17 décembre 1996, et définit une cinquantaine de propriétés. CSS1 se définit comme un « mécanisme de feuille de style simple, permettant aux auteurs et aux lecteurs d'attacher des styles (…) au document HTML ». Cette simplicité se traduit par le choix d'un langage qui peut être aisément lu et écrit directement par ses utilisateurs humains, et d'une terminologie conforme aux usages courants dans la publication informatique. Le choix éventuel d'exprimer CSS dans une syntaxe XML ou SGML, régulièrement évoquée pour éviter l'implémentation d'un nouveau mode d'analyse syntaxique, est donc définitivement écarté.
+  </p>
+
+ <h3>CSS2</h3>
+   <p> Pour répondre aux besoins que la première spécification CSS1 ne couvrait pas encore, CSS est attribué en 1997 à un nouveau groupe de travail au sein du W3C, présidé par Chris Lilley. En 2007, ce groupe comporte notamment des représentants d'Apple, Google, IBM, Microsoft, Adobe, de la Fondation Mozilla et d'Opera.
+   </p>
+
+   <h3>CSS3</h3>
+     <p> Le développement du troisième niveau des feuilles de styles en cascade commence dès 1999, parallèlement à celui de CSS 2.1. CSS3 devient « modulaire », afin de faciliter ses mises à jour, mais aussi son implémentation par des agents utilisateurs aux capacités et aux besoins de plus en plus variés (navigateurs graphiques, navigateurs pour mobiles, navigateurs vocaux). Les navigateurs peuvent ainsi implémenter des sous-ensembles de CSS3.
+     </p>
+
+<h2>Propriétés du CSS</h2>
+
+    <h3>Media queries</h3>
+    <p>Le module des boîtes flexibles, aussi appelé « flexbox », a été conçu comme un modèle de disposition unidimensionnel et
+      comme une méthode permettant de distribuer l'espace entre des objets d'une interface ainsi que de les aligner.
+      Dans cet article, nous verrons les fonctionnalités principales des flexbox que nous approfondirons ensuite dans d'autres articles.
+
+        Lorsqu'on décrit les boîtes flexibles comme une méthode de disposition unidimensionnelle,
+        on indique en fait que les flexbox gèrent une seule dimension à la fois : une ligne ou une colonne. Ce modèle est à comparer au modèle bidimensionnel de la disposition en grille (CSS Grid) qui contrôle à la fois les colonnes et les lignes.
+</p>
+
+<ul class="bouton">
+    <li>
+      <a href="https://developer.mozilla.org/fr/docs/Web/CSS/Requ%C3%AAtes_m%C3%A9dia/Utiliser_les_Media_queries">En savoir plus</a>
+     </li>
+</ul>
+
+   <h3>Flex box</h3>
+  <p>
+   Le module des boîtes flexibles, aussi appelé « flexbox », a été conçu comme un modèle de disposition unidimensionnel
+   et comme une méthode permettant de distribuer l'espace entre des objets d'une interface ainsi que de les aligner.
+   Dans cet article, nous verrons les fonctionnalités principales des flexbox que nous approfondirons ensuite dans d'autres articles.
+   Lorsqu'on décrit les boîtes flexibles comme une méthode de disposition unidimensionnelle,
+   on indique en fait que les flexbox gèrent une seule dimension à la fois : une ligne ou une colonne.
+   Ce modèle est à comparer au modèle bidimensionnel de la disposition en grille (CSS Grid) qui contrôle à la fois les colonnes et les lignes.
+</p>
+    <ul class="bouton">
+        <li>
+          <a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Concepts_de_base_flexbox">En savoir plus</a>
+         </li>
+    </ul>
+
+    <h3>Grid layout</h3>
+    <p> Le module CSS Grid layout (modèle de disposition en grille) est un module de la spécification CSS qui permet de créer des mises en page en divisant
+      l'espace d'affichage en régions utilisables par une application ou en définissant des relations de taille, position et d'empilement entre les éléments HTML.
+
+     Comme les tableaux, la grille permet d'aligner des éléments sous forme de colonnes et de lignes mais à la différence des tableaux, la grille n'a pas de structure de contenu.
+     Ainsi, on peut créer de nombreuses mises en page qui n'auraient pas été possibles avec les tableaux. Ainsi,
+     les éléments fils d'un conteneur en grille peuvent être positionnés afin qu'ils se chevauchent ou qu'ils se comportent comme des éléments positionnés.
+   </p>
+
+   <ul class="bouton">
+       <li>
+         <a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout">En savoir plus</a>
+        </li>
+   </ul>
+
+   <h3>Object fit</h3>
+
+   <p> La propriété CSS object-fit définit la façon dont le contenu d'un élément remplacé ("img" ou "video" par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur.
+  </p>
+
+  <ul class="bouton">
+      <li>
+        <a href="https://developer.mozilla.org/fr/docs/Web/CSS/object-fit">En savoir plus</a>
+       </li>
+  </ul>
+
+  <h3>Transforms</h3>
+
+  <p> La propriété transform modifie l'espace de coordonnées utilisé pour la mise en forme visuelle. Grâce à cette propriété, il est possible de translater les éléments, de les tourner, d'appliquer des homothéties, de les distordre pour en changer la perspective.
+    Si la propriété est différente de none, un contexte d'empilement sera créé. Dans ce cas, l'élément agira comme le bloc englobant pour les éléments qu'il contient et qui ont position: fixed; ou position: absolute;.
+ </p>
+
+ <ul class="bouton">
+     <li>
+       <a href="https://developer.mozilla.org/fr/docs/Web/CSS/transform">En savoir plus</a>
+      </li>
+ </ul>
+
+
+   <h3>Keyframes</h3>
+   <p> La règle @keyframes permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS. Cela permet de contrôler une animation plus finement que ce qu'on pourrait obtenir avec les transitions.
+
+  <ul class="bouton">
+      <li>
+        <a href="https://developer.mozilla.org/fr/docs/Web/CSS/@keyframes">En savoir plus</a>
+       </li>
+  </ul>
+
+</main>
+
+      <div class="footer">
+        <p>Yousra HANNOU_Mentions légales</p>
+      </div>
+
+      <!-- include the Glitch button to show what the webpage is about and
+        to make it easier for folks to view source and remix -->
+
+
+
+  </body>
+  </html>
